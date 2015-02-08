@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3ADAEDC1A86D96600104F10 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ADAEDB1A86D96600104F10 /* DetailViewController.swift */; };
+		F3ADAEDE1A86E3EA00104F10 /* WelcomeAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ADAEDD1A86E3EA00104F10 /* WelcomeAViewController.swift */; };
+		F3ADAEE01A86E4E200104F10 /* WelcomeBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ADAEDF1A86E4E200104F10 /* WelcomeBViewController.swift */; };
 		F3D39E8C1A80A063000B3E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D39E8B1A80A063000B3E40 /* AppDelegate.swift */; };
 		F3D39E8E1A80A063000B3E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D39E8D1A80A063000B3E40 /* ViewController.swift */; };
 		F3D39E911A80A063000B3E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D39E8F1A80A063000B3E40 /* Main.storyboard */; };
@@ -33,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F3ADAEDB1A86D96600104F10 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F3ADAEDD1A86E3EA00104F10 /* WelcomeAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeAViewController.swift; sourceTree = "<group>"; };
+		F3ADAEDF1A86E4E200104F10 /* WelcomeBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeBViewController.swift; sourceTree = "<group>"; };
 		F3D39E861A80A063000B3E40 /* fake-dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fake-dropbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D39E8A1A80A063000B3E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3D39E8B1A80A063000B3E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 				F3F65DEF1A833BDE00C07440 /* PhotosViewController.swift */,
 				F3F65DF11A833BFC00C07440 /* FavoritesViewController.swift */,
 				F3F65DF31A833C1D00C07440 /* SettingsViewController.swift */,
+				F3ADAEDB1A86D96600104F10 /* DetailViewController.swift */,
+				F3ADAEDD1A86E3EA00104F10 /* WelcomeAViewController.swift */,
+				F3ADAEDF1A86E4E200104F10 /* WelcomeBViewController.swift */,
 			);
 			path = "fake-dropbox";
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3ADAEE01A86E4E200104F10 /* WelcomeBViewController.swift in Sources */,
 				F3D39E8E1A80A063000B3E40 /* ViewController.swift in Sources */,
 				F3F65DF21A833BFC00C07440 /* FavoritesViewController.swift in Sources */,
 				F3F65DF01A833BDE00C07440 /* PhotosViewController.swift in Sources */,
@@ -240,7 +250,9 @@
 				F3D39EAC1A80B01B000B3E40 /* ScrollViewController.swift in Sources */,
 				F3F65DEE1A833BBB00C07440 /* FilesViewController.swift in Sources */,
 				F3D6FFDA1A813B2A00BCE59C /* TermsViewController.swift in Sources */,
+				F3ADAEDC1A86D96600104F10 /* DetailViewController.swift in Sources */,
 				F3F65DEC1A833AAC00C07440 /* OverlayViewController.swift in Sources */,
+				F3ADAEDE1A86E3EA00104F10 /* WelcomeAViewController.swift in Sources */,
 				F3D39E8C1A80A063000B3E40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
